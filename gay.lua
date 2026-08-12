@@ -107,12 +107,12 @@ local function createUI(name)
 end
 
 -- usage
-local win = createUI("My UI")
+-- local win = createUI("My UI")
 
-win:Toggle("God Mode", false, function(state)
-    print("god mode:", state)
-end)
+-- win:Toggle("God Mode", false, function(state)
+--    print("god mode:", state)
+-- end)
 
-win:Toggle("Fly", true, function(state)
-    print("fly:", state)
-end)
+-- win:Toggle("Fly", true, function(state)
+--    print("fly:", state)
+--end)
